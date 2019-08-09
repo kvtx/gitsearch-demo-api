@@ -23,7 +23,6 @@ app.use(function(req, res, next) {
   next();
 });
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 app.use('/gitsearch', gitSearchRouter);
 
 // catch 404 and forward to error handler
